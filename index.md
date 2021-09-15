@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+## DjangoRestFrameworkに関する遺言状
 
-You can use the [editor on GitHub](https://github.com/darakudou/mypractice-djangorestframework/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+- DjangoRestFrameWorkとは
+- DjangoでAPIをさくっと作れる3rdパーティライブラリ
+- ここでは *改めて基本的なことは書かない* ので数年間DRFに関わる中で得た知見についてつらつらとまとめていきたい.....
+- restapiの思想みたいな話しもしません、どこかで本を読んでおいて下さい、基本rest的な思想に乗っかって書いていくつもりです
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 目次
 
-### Markdown
+- ぶっちゃけシリアライザーってなんなん？
+- view(controller)の肥大化との戦い
+- methodfieldは使うな！
+- request用のserializer
+- queryparam用のシリアライザー
+- ModelSerializerの罠
+- 普通のserializerを使う方が良い場面の方が多い
+- requestを渡すな！
+- nest=死
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/darakudou/mypractice-djangorestframework/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
